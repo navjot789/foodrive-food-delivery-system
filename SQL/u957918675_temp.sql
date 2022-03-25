@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 25, 2022 at 07:11 PM
+-- Generation Time: Mar 25, 2022 at 07:23 PM
 -- Server version: 10.5.12-MariaDB-cll-lve
 -- PHP Version: 7.2.34
 
@@ -2217,8 +2217,8 @@ CREATE TABLE `payment_settings` (
 
 INSERT INTO `payment_settings` (`id`, `key`, `value`) VALUES
 (1, 'cash_on_delivery', '[{\"active\":\"1\"}]'),
-(2, 'paypal', '[{\"active\":\"0\",\"mode\":\"sandbox\",\"currency\":\"CAD\",\"sandbox_client_id\":\"sb-bzkou4866830@personal.example.com\",\"sandbox_secret_key\":\"5FuHk!qm\",\"production_client_id\":\"production-client-id\",\"production_secret_key\":\"production-secret-key\"}]'),
-(3, 'stripe', '[{\"active\":\"1\",\"testmode\":\"off\",\"currency\":\"CAD\",\"public_key\":\"pk_test_51J7E4oK04LWbovV9ER2juMsstvzCntAKtoSnEtR227SwGJvSVRenhTO5wWbv3ONvHC72mwOLUwMzpOjbLlQl0lF4008BpjwkDA\",\"secret_key\":\"sk_test_51J7E4oK04LWbovV9YdR8N40rcBovnvK3hVwUi9iJWBSk5tSDy2fKlAQsNlKpMjJp0h85zR6BpDSWotD3yr6zxqKR00ZDAklIcV\",\"public_live_key\":\"pk_live_51J7E4oK04LWbovV9FP88DCAXWAGH06StEWufz882ymmpnkvfuJQVV3hzKxvktIKQRZEXsQuSi1RWcBGpd9jjUaAO00D8NX3WxP\",\"secret_live_key\":\"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\"}]'),
+(2, 'paypal', '[{\"active\":\"0\",\"mode\":\"sandbox\",\"currency\":\"CAD\",\"sandbox_client_id\":\"\",\"sandbox_secret_key\":\"\",\"production_client_id\":\"production-client-id\",\"production_secret_key\":\"production-secret-key\"}]'),
+(3, 'stripe', '[{\"active\":\"1\",\"testmode\":\"off\",\"currency\":\"CAD\",\"public_key\":\"\",\"secret_key\":\"\",\"public_live_key\":\"\",\"secret_live_key\":\"\"}]'),
 (4, 'credit_debit_on_delivery', '[{\"active\":\"1\"}]'),
 (5, 'wallet', '[{\"active\":\"1\"}]');
 
