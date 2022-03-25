@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Mar 25, 2022 at 07:23 PM
+-- Generation Time: Mar 25, 2022 at 07:28 PM
 -- Server version: 10.5.12-MariaDB-cll-lve
 -- PHP Version: 7.2.34
 
@@ -2450,7 +2450,7 @@ INSERT INTO `system_settings` (`id`, `key`, `value`) VALUES
 (16, 'recaptcha_sitekey', NULL),
 (17, 'recaptcha_secretkey', NULL),
 (18, 'version', '2.1'),
-(19, 'gmap_api_key', 'AIzaSyAHmGT1kzyIK8bgc7Mqrn2bpaIQ-IlUTtE'),
+(19, 'gmap_api_key', NULL),
 (20, 'phone_validation', 'bcac0cc5bb4d44bf8bc825e2bbab2b77'),
 (21, 'inspect_elements', 'false');
 
