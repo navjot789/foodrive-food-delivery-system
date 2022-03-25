@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+body {
+  font-weight: 300
+}
+
+.system-icon {
+  height: 43px;
+}
+
+/* brand name */
+.navbar-brand span {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.foodmenu-thumbnail-for-cart {
+  height: 130px;
+  object-fit: cover;
+}
+ 
+.mt-22 {
+  margin-top: 22px;
+}
+
+.menu-price-section p {
+  font-size: 13px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+  font-size: 13px;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.cart-page-restaurant-delivery-details {
+  float: right;
+  font-size: 13px;
+}
+
+.cart-page-menu-thumbnail {
+  border: 1px solid #eae3e3;
+  height: 50px;
+  width: 50px;
+  padding: 2px;
+  object-fit: cover;
+}
+
+.cart-page-menu-title {
+  font-size: 15px;
+  color: #424242;
+  display: block;
+  margin-top: 8px;
+  font-weight: 300;
+}
+
+.cart-page-menu-servings {
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.cart-page-menu-unit-price {
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.cart-page-menu-quantity {
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.cart-page-menu-sub-total {
+  font-size: 12px;
+  color: #757575;
+  display: block;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+.cart-page-actions {
+  font-size: 15px;
+  display: block;
+  margin-top: 20px;
+}
+
+.cart-page-actions a {
+  text-decoration: none;
+}
+
+.delivery-address-list {
+  color: #525252;
+  font-weight: 400;
+  font-size: 17px;
+  margin: 10px 0px 10px 2px;
+}
+
+.customer-address-list tr td {
+  padding-top: 10px;
+}
+
+.bill-table {
+  float: right;
+}
+
+.bill-table .bill-type {
+  font-weight: 300;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.bill-table .bill-value {
+  font-weight: 400;
+  text-align: right;
+}
+
+.success-tick {
+  height: 100px;
+}
+
+.featured-title-box .filled-favourite {
+  color: #f44336;
+}
+
+.footer-page-links {
+  margin-top: 0px !important;
+}
+
+.footer-page-links li a {
+  font-size: 13px !important;
+  padding: 0px 4px !important;
+}
+
+.customer-review_wrap .customer-img img {
+  height: 78px;
+}
+
+.text-body {
+  color: #737882;
+}
+
+.restaurant-schedule {
+  padding: 10px 5px;
+}
+
+.restaurant-schedule table tr {
+  padding: 5px;
+  border: 1px solid #F5F5F5;
+}
+
+.restaurant-schedule table tr .restaurant-time-schedule {
+  border-left: 1px solid #F5F5F5;
+}
+
+.restaurant-schedule table tr .restaurant-day-schedule {
+  border-right: 1px solid #F5F5F5;
+}
+
+/* PAGINATION CSS */
+.page-item.active .page-link {
+  z-index: 2;
+  color: #fff;
+  background-color: #ff3a6d;
+  border-color: #ff3a6d;
+}
+
+.page-link {
+  color: #ff3a6d;
+}
+
+.page-link:focus,
+.page-link:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #ff81a1;
+  border-color: #ff81a1;
+}
+
+.page-item.active .page-link:hover {
+  color: #fff;
+}
+
+/* CALLOUT CSS STARTS*/
+.callout {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-left-width: 5px;
+  border-radius: 3px;
+}
+
+.callout h4 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.callout p:last-child {
+  margin-bottom: 0;
+}
+
+.callout code {
+  border-radius: 3px;
+}
+
+.callout+.bs-callout {
+  margin-top: -5px;
+}
+
+.callout-default {
+  border-left-color: #777;
+}
+
+.callout-default h4 {
+  color: #777;
+}
+
+.callout-primary {
+  border-left-color: #428bca;
+}
+
+.callout-primary h4 {
+  color: #428bca;
+}
+
+.callout-success {
+  border-left-color: #5cb85c;
+}
+
+.callout-success h4 {
+  color: #5cb85c;
+}
+
+.callout-danger {
+  border-left-color: #d9534f;
+}
+
+.callout-danger h4 {
+  color: #d9534f;
+}
+
+.callout-warning {
+  border-left-color: #f0ad4e;
+}
+
+.callout-warning h4 {
+  color: #f0ad4e;
+}
+
+.callout-info {
+  border-left-color: #5bc0de;
+}
+
+.callout-info h4 {
+  color: #5bc0de;
+}
+
+.callout-bdc {
+  border-left-color: #29527a;
+}
+
+.callout-bdc h4 {
+  color: #29527a;
+}
+
+/* CALLOUT CSS ENDS*/
+
+/* CUSTOM SELECT FOR LANGUAGE STARTS */
+/* Reset Select */
+
+.language-selector {
+    border: 0 !important;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  background: #2c3e50;
+  background-image: none;
+}
+
+/* Remove IE arrow */
+select::-ms-expand {
+  display: none;
+}
+
+/* Custom Select */
+.select {
+  position: relative;
+  display: flex;
+  width: 20em;
+  height: 3em;
+  line-height: 3;
+  background: #2c3e50;
+  overflow: hidden;
+  border-radius: .25em;
+}
+
+select {
+  flex: 1;
+  padding: 0 .5em;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: #34495e;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+
+/* Transition */
+.select:hover::after {
+  color: #ff3a6d;
+}
+
+/* CUSTOM SELECT FOR LANGUAGE ENDS */
+
+h6 .restaurant-name {
+    color: #3e434b;
+}
+.featured-cuisine-area {
+    padding-left: 15px;
+    padding-right: 0px;
+}

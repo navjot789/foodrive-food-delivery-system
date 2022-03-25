@@ -1,0 +1,27 @@
+.data-table {
+    border: solid 1px #eee;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    width: 100%;
+}
+
+.data-table tbody td {
+    border: solid 1px #eee;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.data-table-highlight tbody tr:hover {
+    background-color: #f8f8f8;
+}
+
+.data-table-horizontal tbody td {
+    border-left: none;
+    border-right: none;
+}
+
+.top-buffer {
+    margin-top: 20px;
+}

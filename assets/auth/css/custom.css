@@ -1,0 +1,133 @@
+.auth-logo {
+    height: 60px;
+}
+
+/* USER ROLE CHOOSING VIEW CSS STARTS */
+.wrap-login600 {
+    width: 900px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.button-images {
+    max-width: 1000px;
+}
+
+.button-container {
+    position: relative;
+    text-align: center;
+    padding: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #ECEFF1;
+}
+
+.button-container A:before {
+    content: '';
+    display: inline-block;
+    height: 48%;
+}
+
+.button-container a {
+    transition: all 1s ease-out;
+    background: rgba(88, 88, 88, 0.5);
+    border-radius: 50%;
+    vertical-align: middle;
+    padding: 5%;
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 23px;
+    font-weight: 800;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-container A:hover {
+    background: none;
+    opacity: 0;
+    border: 5px solid #424242;
+}
+
+.button-container img {
+    width: 100%;
+    height: auto;
+    display: block
+}
+
+/*Columns*/
+.clearboth {
+    clear: both;
+    display: block;
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    width: 100%;
+}
+
+/* USER ROLE CHOOSING VIEW CSS ENDS */
+
+/* CONFUSED CSS*/
+
+.confused {
+    height: 150px;
+    width: 150px;
+    margin-top: 15px;
+}
+
+
+/* LOGIN AS BUTTOS CSS */
+.login-as-btn-area {
+    margin-bottom: 10px;
+}
+
+.login-as-btn-area table tr td {
+    padding: 5px;
+}
+
+.login-as-btn-area button {
+    height: 25px;
+    border-radius: 4px;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+    font-size: 10px;
+    text-transform: capitalize;
+    width: 100%;
+}
+
+.login-as-btn-area .login-as-admin {
+    background-color: #2196F3;
+}
+
+.login-as-btn-area .login-as-owner {
+    background-color: #2196F3;
+}
+
+.login-as-btn-area .login-as-customer {
+    background-color: #2196F3;
+}
+
+.login-as-btn-area .login-as-driver {
+    background-color: #2196F3;
+}
+
+.login-as-btn-area button:hover {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    -ms-box-shadow: none;
+}

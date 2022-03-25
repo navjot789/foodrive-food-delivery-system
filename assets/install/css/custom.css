@@ -1,0 +1,32 @@
+.bg {
+    min-height: 80px;
+    background: linear-gradient(135deg, #0F2027 0, #2C5364 60%);
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.mt-13 {
+    margin-top: 13px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.max-40 {
+    max-height: 40px;
+}
+
+.border-gray {
+    border-color: #dedede;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
